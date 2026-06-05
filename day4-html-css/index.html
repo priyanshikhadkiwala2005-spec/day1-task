@@ -1,14 +1,15 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title>My Webpage</title>
+    
+    <title>MY WEBPAGE</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    
+    <!-- Header -->
     <header>
-        <h1>My Website</h1>
+        <h1>Welcome to My Website</h1>
+
         <nav>
             <a href="#">Home</a>
             <a href="#">About</a>
@@ -16,32 +17,130 @@
         </nav>
     </header>
 
-    
+    <!-- About Section -->
     <section class="about">
-        <h2>About Us</h2>
+        <h2>About Me</h2>
         <p>
-            Welcome to our website. This is a simple webpage created using HTML and CSS.
+            Hello! My name is Priyanshi. This page demonstrates
+            different CSS concepts such as Tables, Display,
+            Float, Position, and Z-Index.
         </p>
     </section>
 
-    
+    <!-- CSS Table -->
+    <section class="about">
+        <h2>CSS Table Example</h2>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Course</th>
+                <th>City</th>
+            </tr>
+
+            <tr>
+                <td>Priyanshi</td>
+                <td>Full Stack Development</td>
+                <td>Bharuch</td>
+            </tr>
+
+            <tr>
+                <td>Khushi</td>
+                <td>Web Development</td>
+                <td>Ankleshwar</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- CSS Display -->
+    <section class="about">
+        <h2>CSS Display Example</h2>
+
+        <div class="block-box">
+            I am a Block Element
+        </div>
+
+        <span class="inline-box">Inline 1</span>
+        <span class="inline-box">Inline 2</span>
+
+        <br><br>
+
+        <div class="inline-block-box">
+            Inline Block 1
+        </div>
+
+        <div class="inline-block-box">
+            Inline Block 2
+        </div>
+    </section>
+
+    <!-- CSS Float -->
+    <section class="about clearfix">
+        <h2>CSS Float Example</h2>
+
+        <div class="float-left">
+            Float Left Box
+        </div>
+
+        <div class="float-right">
+            Float Right Box
+        </div>
+    </section>
+
+    <!-- CSS Position -->
+    <section class="about">
+        <h2>CSS Position Example</h2>
+
+        <div class="relative-box">
+            Relative Position
+        </div>
+
+        <div class="absolute-box">
+            Absolute Position
+        </div>
+    </section>
+
+    <!-- CSS Z-Index -->
+    <section class="about">
+        <h2>CSS Z-Index Example</h2>
+
+        <div class="box1">
+            Box 1 (z-index: 1)
+        </div>
+
+        <div class="box2">
+            Box 2 (z-index: 2)
+        </div>
+    </section>
+
+    <!-- Contact Form -->
     <section class="form-section">
         <h2>Contact Form</h2>
 
         <form>
-            <input type="text" placeholder="Enter Name"><br><br>
+            <input type="text" placeholder="Enter Your Name">
+            <br><br>
 
-            <input type="email" placeholder="Enter Email"><br><br>
+            <input type="email" placeholder="Enter Your Email">
+            <br><br>
 
-            <textarea placeholder="Enter Message"></textarea><br><br>
+            <textarea rows="5" placeholder="Enter Your Message"></textarea>
+            <br><br>
 
-            <button type="submit">Submit</button>
+            <button type="submit">
+                Submit
+            </button>
         </form>
     </section>
 
-    
+    <!-- Fixed Position Example -->
+    <div class="fixed-box">
+        Fixed Box
+    </div>
+
+    <!-- Footer -->
     <footer>
-        <p>© 2026 My Website</p>
+        <p>© 2026 My Website. All Rights Reserved.</p>
     </footer>
 
 </body>
