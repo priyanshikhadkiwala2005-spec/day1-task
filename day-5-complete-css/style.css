@@ -1,0 +1,72 @@
+/* Font and Background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Center Layout */
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+
+    background-color: white;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+}
+
+h2 {
+    color: #3498db;
+}
+
+/* Paragraph */
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Button */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+
+    padding: 10px 20px;
+    margin-top: 15px;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
