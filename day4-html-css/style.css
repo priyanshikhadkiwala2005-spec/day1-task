@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center; /* Center content */
-    background-color: #f4f4f4;
+    text-align: center;
+    background-color: white;
     margin: 20px;
 }
 
@@ -9,15 +9,15 @@ header,
 .about,
 .form-section,
 footer {
-    border: 2px solid black; /* Borders */
-    padding: 20px; /* Padding */
-    margin: 20px auto; /* Margin */
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px auto;
     width: 80%;
     background-color: white;
 }
 
 header {
-    background-color: #007bff;
+    background-color: blue;
     color: white;
 }
 
@@ -38,4 +38,124 @@ button {
     background-color: green;
     color: white;
     border: none;
+}
+
+/* ==========================
+   CSS TABLES
+========================== */
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: lightblue;
+}
+
+/* ==========================
+   CSS DISPLAY
+========================== */
+
+.block-box {
+    display: block;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+}
+
+.inline-box {
+    display: inline;
+    background-color: yellow;
+}
+
+.inline-block-box {
+    display: inline-block;
+    background-color: lightgreen;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* ==========================
+   CSS FLOAT
+========================== */
+
+.float-left {
+    float: left;
+    width: 40%;
+    background-color: lightcoral;
+    padding: 15px;
+}
+
+.float-right {
+    float: right;
+    width: 40%;
+    background-color: lightseagreen;
+    padding: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* ==========================
+   CSS POSITION & OFFSETS
+========================== */
+
+.relative-box {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: orange;
+    padding: 15px;
+    width: 200px;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: pink;
+    padding: 15px;
+}
+
+.fixed-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+/* ==========================
+   CSS Z-INDEX
+========================== */
+
+.box1 {
+    position: relative;
+    z-index: 1;
+    background-color: lightblue;
+    width: 200px;
+    height: 100px;
+    margin: auto;
+}
+
+.box2 {
+    position: relative;
+    z-index: 2;
+    background-color: lightgreen;
+    width: 200px;
+    height: 100px;
+    margin: -50px auto 0;
 }
