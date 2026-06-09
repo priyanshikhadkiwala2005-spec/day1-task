@@ -1,0 +1,49 @@
+
+<html>
+<head>
+    
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Student Management System</h1>
+
+        <input type="text" id="studentName" placeholder="Enter Student Name">
+
+        <input type="number" id="studentMarks" placeholder="Enter Marks">
+
+        <button id="addBtn">Add Student</button>
+
+        <h2>Student List</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Marks</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+
+            <tbody id="studentList">
+
+            </tbody>
+        </table>
+
+        <h2>Summary</h2>
+
+        <p>Total Students: <span id="totalStudents">0</span></p>
+
+        <p>Pass Count: <span id="passCount">0</span></p>
+
+        <p>Fail Count: <span id="failCount">0</span></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
