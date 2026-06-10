@@ -1,0 +1,41 @@
+<html>
+<head>
+    
+    <title>Employee Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Employee Registration Form</h1>
+
+        <form id="employeeForm">
+
+            <input type="text" id="name" placeholder="Employee Name">
+
+            <input type="email" id="email" placeholder="Email">
+
+            <input type="text" id="department" placeholder="Department">
+
+            <input type="number" id="salary" placeholder="Salary">
+
+            <button type="submit">Register Employee</button>
+
+        </form>
+
+        <p id="message"></p>
+
+        <h2>Statistics</h2>
+        <p>Total Employees: <span id="totalEmployees">0</span></p>
+        <p>Average Salary: <span id="averageSalary">0</span></p>
+        <p>Highest Salary: <span id="highestSalary">0</span></p>
+
+        <h2>Employee List</h2>
+        <div id="employeeList"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
