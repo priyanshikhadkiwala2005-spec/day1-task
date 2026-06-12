@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Watchlist App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1> Movie Watchlist App</h1>
+
+    <div class="form">
+
+        <input
+            type="text"
+            id="movieName"
+            placeholder="Movie Name"
+        >
+
+        <input
+            type="text"
+            id="movieGenre"
+            placeholder="Genre"
+        >
+
+        <input
+            type="number"
+            id="movieRating"
+            placeholder="Rating"
+        >
+
+        <button onclick="addMovie()">
+            Add Movie
+        </button>
+
+    </div>
+
+    <br>
+
+    <input
+        type="text"
+        id="searchMovie"
+        placeholder="Search Movie"
+        onkeyup="searchMovie()"
+    >
+
+    <h2> Statistics</h2>
+    <div id="stats"></div>
+
+    <h2> Genres</h2>
+    <div id="genreButtons"></div>
+
+    <h2> All Movies</h2>
+    <div id="movieList"></div>
+
+    <h2> Genre Movies</h2>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
