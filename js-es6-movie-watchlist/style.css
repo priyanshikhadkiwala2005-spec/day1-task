@@ -1,0 +1,37 @@
+body{
+    font-family: Arial;
+    padding:20px;
+}
+
+input{
+    padding:10px;
+    margin:5px;
+}
+
+button{
+    padding:10px;
+    margin:5px;
+    cursor:pointer;
+}
+
+.movie{
+    border:1px solid #ccc;
+    padding:10px;
+    margin-top:10px;
+    border-radius:5px;
+}
+
+.genre-btn{
+    background:black;
+    color:white;
+}
+
+.pending{
+    color:red;
+    font-weight:bold;
+}
+
+.watched{
+    color:green;
+    font-weight:bold;
+}
