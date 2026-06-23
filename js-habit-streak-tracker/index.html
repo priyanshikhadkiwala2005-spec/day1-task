@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Streak Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Habit Streak Tracker</h1>
+
+    <input
+        type="text"
+        id="habitInput"
+        placeholder="Enter Habit"
+    >
+
+    <button onclick="addHabit()">
+        Add Habit
+    </button>
+
+    <br><br>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search Habit"
+        onkeyup="searchHabit()"
+    >
+
+    <h3>Dashboard</h3>
+
+    <p>Total Habits:
+        <span id="totalHabits">0</span>
+    </p>
+
+    <p>Completed Today:
+        <span id="completedToday">0</span>
+    </p>
+
+    <p>Active Streaks:
+        <span id="activeStreaks">0</span>
+    </p>
+
+    <p>Longest Streak:
+        <span id="longestStreak">0</span>
+    </p>
+
+    <hr>
+
+    <!-- Habits Display Here -->
+    <div id="habitList"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
