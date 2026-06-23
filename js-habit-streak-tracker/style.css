@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.habit {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.done {
+    background: lightgreen;
+}
+
+.badge {
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.habit h3 {
+    margin: 0 0 10px;
+}
+
+.habit p {
+    margin: 6px 0;
+}
+
+/* Restore timer */
+.timer {
+    color: red;
+    font-weight: bold;
+}
+
+/* Restore button */
+.restore-btn {
+    background: green;
+}
+
+/* Break button */
+.break-btn {
+    background: crimson;
+}
+
+/* Complete button */
+.complete-btn {
+    background: #28a745;
+}
+
+/* Delete button */
+.delete-btn {
+    background: #dc3545;
+}
